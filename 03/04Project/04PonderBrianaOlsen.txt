@@ -1,0 +1,48 @@
+# 03 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the JSON parsing activity.
+
+Knowing which java classes to use - FileWriter, Scanner vs ones in the instructor example.
+
+2. For the Prove API assignment, what did you learn about how APIs work?
+I learned how you can communicate and interact with a URL and use that information in your code. Using an API you can request information from a URL using Java library (URLEncoder, HTTPResponse, etc) and getting a JSON/GSON response. We can then write code to handle and use that information.
+ 
+
+3. Did you complete the Stretch Challenge for the Prove API Assignment? If so, briefly describe which method you used.
+I prompted for 5 cities instead and requested their forecast and put that into an array and made an object WeatherComparison with that list. I wrote some methods to return the max temp and max windspeed from their WeatherForecast using a loop, putting the temps into an arraylist, and then sorting the array list, finally returning the highest temp. I then sorted each city's temps into a TreeMap. I did the same with WindSpeed.
+
+
+4. What did you learn from comparing your code to the teacher's solution?
+I used more collections to do my sorting while the instructor's solution had more coded sorts. I figured since we had learned about those collections that it was implied that we should use them. I also did a bit extra by throwing in an extra class to find the name of a WeatherForecast object.
+
+
+5. After completing the assignments this week, what questions do you still have?
+Probably still the same problems we had in the team activity - knowing which readers/scanners to use since everything I find online is different than the instructor solutions.
+
+
+6. Aside from the task you completed, what is another use you could see for the API we used?
+Pulling different information from many different companies at once, like prices of items/travel. Things like updating dates, timezones, social media feeds, etc.
+
+
+7. A common Java interview question is "Describe what an API is and how it's used". (Sometimes people refer to these types of APIs as "REST APIs") How would you answer that question?
+An API is an Application Programming Interface and is a part of the server that receives requests and responds. You can then use this information in your programming in various custom ways.
+
+
+8. Of all of the resources in this week's reading, which was the _most_ helpful to you and why?
+The earthquake example and the commentary was the most helpful in explaining step by step what was happening and what each thing was doing.
+
+
+9. Of all of the resources in this week's reading, which was the _least_ helpful to you and why?
+While the stack overflow was helpful at first it was a bit too much info and the instructor's example was more tailored to this assignment and more useful.
+
+
+10. How many hours did you spend on this class this week?
+
+01 Prepare - 1
+01 Teach - 2
+01 Prove 1st Attempt - 7
+01 Prove 2nd Attempt -
+01 Ponder - 1
+----------------------------
+Total Hours - 11
+

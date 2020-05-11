@@ -1,0 +1,1 @@
+{"_name":"Briana","_health":15,"_mana":20,"_gold":3,"_equipment":{"Breastplate":1,"Helm":3}}

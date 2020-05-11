@@ -1,0 +1,1 @@
+{"_name":"Briana","_health":150,"_mana":20,"_gold":300,"_equipment":{"The Master Sword":50,"Helm":40,"Breastplate":1,"Breads":4,"Bread":2}}

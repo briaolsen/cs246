@@ -1,0 +1,42 @@
+# 01 Ponder : Weekly Reflection
+
+1. For the NSA Cryptography assignment, what did you learn about how Java parameter passing differs from C++?
+
+	I learned that in Java pointers are always passed by value and not by reference. This means that in Java what is being passed is like an address. The variable that is passed in will point to an address. You can then change what is at that address, however, you cannot change the address itself.
+
+2. Did you complete the Stretch Challenge for the NSA Cryptography? If so, briefly describe what you did, and how you structured your code.
+
+	First I added a WeakPasswordException and changed the NSALoginController file's hashUserPassword() function to check the password for length (>8) and if it contained at least one digit (looped through the chacter array to find a digit). An if statement checked those two situations and if it did not pass then the code threw a WeakPasswordException with a message stating that the password must be at least 8 characters and contain a digit. In the Test file the user would try to make a password and if the exception was thrown it would catch it and print out the message. This would continue prompting for a new password to be entered until the user entered a valid password (by using a do/while loop).
+
+3. What did you learn from comparing your code to the teacher's solution?
+
+	I had some extra features (looping through until correct passwords were entered, etc.) and I had two do/while loops instead of just one. I learned that the program could have been simpler and be just fine for the assignment. I did learn that I did everything pretty similarly to the teacher's solution so that was heartening. 
+
+4. After completing the assignments this week, what questions do you still have?
+
+	I didn't specificially look up how to write primitive data types and things like that so I might want to go look those up. I noticed "boolean" was written differently than c++ "bool" so I'm wondering what else might be slightly different. 
+
+5. If you were getting paid to work on this week's Prove assignment and you had another month to work on it, what would you add?
+
+	I would clean up the error messages and formatting. I could also add in usernames and store other information in the user object.
+
+6. A common Java interview question is "What are javadocs and when should they be used?". How would you answer that question?
+
+	A javadoc is an html file containing the documentation for a library or project that gives inormation about the classes and methods contained in the project. JavaDoc is also a tool that can create these documents automatically by using the comments in the files. Comments for javadoc should be put before the declarations of public classes, fields, methods, and constructors.
+
+7. Of all of the resources in this week's Preparation assignment, which was the _most_ helpful to you and why?
+
+	The video and the reading were a good introduction about Java. The video explaining the assignment was very useful because ti helped naturally answer questions that the reading didn't specify.
+
+8. Of all of the resources in this week's Preparation assignment, which was the _least_ helpful to you and why?
+
+	As much as stackoverflow is useful when looking up quick answers I'd prefer a website more directed towards learning a concept. Many of the stackoverflow answers are not complete or are wrong and that worries me when trying to actually learn a concept. 
+
+9. How many hours did you spend on this class this week?
+
+01 Prepare - 1
+01 Prove 1st Attempt - 3
+01 Prove 2nd Attempt - 0
+01 Ponder - 1
+----------------------------
+Total Hours - 4
