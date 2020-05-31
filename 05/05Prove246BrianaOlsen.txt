@@ -1,0 +1,43 @@
+# 05 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the Android activity.
+
+The program had things in slightly different places than the tutorial so sometimes it was hard to find things because they weren't where the tutorial said it would be. 
+
+
+2. What is the difference between an Activity and an Intent?
+
+An activity is the user interface, or the visual components you see on the screen, and what it can do. An intent manages events between activities. The intent tells other applications or activities what to do.
+
+3. Describe how the onCreate() callback works.
+
+The onCreate() method is called when an activity starts. This method should initialize UI components and variables. 
+
+4. What's the biggest challenge you've experienced regarding Android development compared to pure Java development?
+
+There is just a lot more to work with now. Before it was just printing things to the console, now we have a lot more visual items to work with and make them look nice on top of making them work well.
+
+5. After completing the assignments this week, what questions do you still have?
+
+I think I need to go back to the debug logging and go over that stuff a bit more carefully so I really understand it.
+
+6. A common Android-related interview question is "What's the difference between onPause() and onDestroy() and what kinds of things might you do in those functions?". How would you answer that question?
+
+You use onPause() when the user is leaving the activity. You can use this to pause or adjust the operations and the acitivity will resume again in a little while. When the activity is finished or when the activity needs to be temporarily destroyed to reconfigure something you would use onDestroy. 
+
+7. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+
+I always find the videos the most helpful.
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+
+I did not find most of the reading from the developer.android.com website very useful and had to go elsewhere to find the same information presented in a simpler, easier to understand way.
+
+9. How many hours did you spend on this class this week?
+
+05 Prepare - 1
+05 Teach - 1
+05 Prove - 10
+05 Ponder - 1
+----------------------------
+Total Hours - 13

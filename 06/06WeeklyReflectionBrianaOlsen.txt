@@ -1,0 +1,43 @@
+# 06 Ponder : Weekly Reflection
+
+1. Describe how multithreading works.
+
+Multithreading is a way for a program to be able to do more than one thing at a time by using different threads to run different processes. The main thread listens and responds to mouse clicks and keyboard input. Other threads can be used for other tasks that can take a long time to complete.
+
+
+2. What is the difference between sublcassing Thread and implementing Runnable?
+
+When you extend Thread you cannot extend any other class. However, you can implement Runnable, leaving it open to extend a different class. 
+
+
+3. What was one of the most difficult challenges your team faced working on the multithreading assignment?
+
+Just getting everything figured out and where to put what - especially runOnUiThread.
+
+4. After completing the assignments this week, what questions do you still have?
+
+I would like to know more about ArrayAdapters.
+
+
+5. A common Android-related interview question is "If you need to update the GUI from a background thread, how can you accomplish this?". How would you answer that question?
+
+You would need to use runOnUiThread and implement Runnable.
+
+
+6. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+
+The video from the Slack announcement was the most helpful. I always appreciate walking through code and explaining what is happening step by step.
+
+
+7. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+
+The stuff about AsyncTask was probably the least helpful just because we didn't use it at all. Ther was also a warning that AsyncTask was deprecated in API level R which I wasn't sure what that meant for using it in the future.
+
+8. How many hours did you spend on this class this week?
+
+06 Prepare - 1
+06 Teach - 1
+06 Prove - 4
+06 Ponder - 1
+----------------------------
+Total Hours - 7

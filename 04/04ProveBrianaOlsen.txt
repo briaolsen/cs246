@@ -1,0 +1,55 @@
+# 04 Ponder : Weekly Reflection
+
+1. Describe one challenge your team experienced working on the GitHub activity.
+
+I messed up a bit by not pulling a different file before working on the team activity and had to fix that first, so we ended up doing a lot of the same things only backwards before even starting the team activity.
+
+
+2. What are the advantages to using a version control system like git?
+
+You can rollback and save/work on different versions when coding. You can also have many different people working on the same project but not messing up each other's code.
+
+
+3. What is the difference between git and GitHub?
+
+Github is a website that hosts files you can download and upload. Git is the tool you use to manage the code and push and pull from Github.
+
+
+4. What is the purpose of branching in git?
+
+Branching allows you to work on a copy of the code without working on the actual master code.
+
+
+5. Imagine you're working as a software developer for someone who doesn't have any experience with programming. How would you describe version control and git to your employer?
+
+You can liken Git to Google Drive if they know how that works. Explain that it is a software that allows many contributers to write, edit, and add to a file or project remotely. 
+
+
+6. After completing the assignments this week, what questions do you still have?
+
+I ran into some trouble with origin/master and which it was pushing to and I had to remove some stuff. Still wondering how to avoid that.
+
+
+7. A common git-related interview question is "How do you revert a commit that has already been pushed and made public?". How would you answer that question?
+
+A git revert is safer than a git reset because it will retain the commits you want to undo and make a new commit. This can be pulled into a branch to undo the bad commit. Resets should be reserved for undoing local commits. 
+
+
+8. Of all of the resources and tutorials in this week's assignments, which was the _most_ helpful to you and why?
+
+The stretch challenge for remove, revert, and reset. Also the information about branching. I also always appreciate any videos from the instructor. I had not learned either from another class teaching git right now.
+
+
+9. Of all of the resources and tutorials in this week's assignments, which was the _least_ helpful to you and why?
+
+Some of the resources were a bit repetitive.
+
+
+10. How many hours did you spend on this class this week?
+
+04 Prepare - 1
+04 Teach - 1
+04 Prove - 2
+04 Ponder - 1
+----------------------------
+Total Hours - 5
